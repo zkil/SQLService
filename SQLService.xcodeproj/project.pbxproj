@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4D19901C6311240016ACB1 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D198F1C6311240016ACB1 /* NSObject+Property.m */; };
+		9B4D19931C6317D70016ACB1 /* NNNN.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D19921C6317D70016ACB1 /* NNNN.m */; };
 		9B5C6D581C61DD270096F299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C6D571C61DD270096F299 /* main.m */; };
 		9B5C6D5B1C61DD270096F299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C6D5A1C61DD270096F299 /* AppDelegate.m */; };
 		9B5C6D5E1C61DD270096F299 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C6D5D1C61DD270096F299 /* ViewController.m */; };
@@ -15,6 +17,8 @@
 		9B5C6D661C61DD270096F299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5C6D641C61DD270096F299 /* LaunchScreen.storyboard */; };
 		9B5C6D711C61DD270096F299 /* SQLServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C6D701C61DD270096F299 /* SQLServiceTests.m */; };
 		9B5C6D7C1C61DD280096F299 /* SQLServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C6D7B1C61DD280096F299 /* SQLServiceUITests.m */; };
+		9B5C6D8A1C61DD590096F299 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5C6D891C61DD590096F299 /* libsqlite3.0.tbd */; };
+		9B5C6D8D1C61DD730096F299 /* SQLService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C6D8C1C61DD730096F299 /* SQLService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B4D198E1C6311240016ACB1 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		9B4D198F1C6311240016ACB1 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		9B4D19911C6317D70016ACB1 /* NNNN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNN.h; sourceTree = "<group>"; };
+		9B4D19921C6317D70016ACB1 /* NNNN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNN.m; sourceTree = "<group>"; };
 		9B5C6D531C61DD270096F299 /* SQLService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5C6D571C61DD270096F299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9B5C6D591C61DD270096F299 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,9 @@
 		9B5C6D771C61DD280096F299 /* SQLServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5C6D7B1C61DD280096F299 /* SQLServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLServiceUITests.m; sourceTree = "<group>"; };
 		9B5C6D7D1C61DD280096F299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B5C6D891C61DD590096F299 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9B5C6D8B1C61DD730096F299 /* SQLService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLService.h; sourceTree = "<group>"; };
+		9B5C6D8C1C61DD730096F299 /* SQLService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5C6D8A1C61DD590096F299 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,7 @@
 		9B5C6D4A1C61DD270096F299 = {
 			isa = PBXGroup;
 			children = (
+				9B5C6D891C61DD590096F299 /* libsqlite3.0.tbd */,
 				9B5C6D551C61DD270096F299 /* SQLService */,
 				9B5C6D6F1C61DD270096F299 /* SQLServiceTests */,
 				9B5C6D7A1C61DD280096F299 /* SQLServiceUITests */,
@@ -105,11 +118,17 @@
 				9B5C6D5A1C61DD270096F299 /* AppDelegate.m */,
 				9B5C6D5C1C61DD270096F299 /* ViewController.h */,
 				9B5C6D5D1C61DD270096F299 /* ViewController.m */,
+				9B4D19911C6317D70016ACB1 /* NNNN.h */,
+				9B4D19921C6317D70016ACB1 /* NNNN.m */,
+				9B5C6D8B1C61DD730096F299 /* SQLService.h */,
+				9B5C6D8C1C61DD730096F299 /* SQLService.m */,
 				9B5C6D5F1C61DD270096F299 /* Main.storyboard */,
 				9B5C6D621C61DD270096F299 /* Assets.xcassets */,
 				9B5C6D641C61DD270096F299 /* LaunchScreen.storyboard */,
 				9B5C6D671C61DD270096F299 /* Info.plist */,
 				9B5C6D561C61DD270096F299 /* Supporting Files */,
+				9B4D198E1C6311240016ACB1 /* NSObject+Property.h */,
+				9B4D198F1C6311240016ACB1 /* NSObject+Property.m */,
 			);
 			path = SQLService;
 			sourceTree = "<group>";
@@ -270,7 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5C6D8D1C61DD730096F299 /* SQLService.m in Sources */,
+				9B4D19901C6311240016ACB1 /* NSObject+Property.m in Sources */,
 				9B5C6D5E1C61DD270096F299 /* ViewController.m in Sources */,
+				9B4D19931C6317D70016ACB1 /* NNNN.m in Sources */,
 				9B5C6D5B1C61DD270096F299 /* AppDelegate.m in Sources */,
 				9B5C6D581C61DD270096F299 /* main.m in Sources */,
 			);
@@ -498,6 +520,7 @@
 				9B5C6D821C61DD280096F299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B5C6D831C61DD280096F299 /* Build configuration list for PBXNativeTarget "SQLServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				9B5C6D851C61DD280096F299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B5C6D861C61DD280096F299 /* Build configuration list for PBXNativeTarget "SQLServiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				9B5C6D881C61DD280096F299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
